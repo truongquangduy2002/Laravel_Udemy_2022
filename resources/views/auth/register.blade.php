@@ -30,7 +30,7 @@
 
                     <div class="text-center mt-4">
                         <div class="mb-3">
-                            <a href="index.html" class="auth-logo">
+                            <a href="{{route('login')}}" class="auth-logo">
                                 <img src="{{ asset('backend/assets/images/logo-dark.png') }}" height="30"
                                     class="logo-dark mx-auto" alt="">
                                 <img src="{{ asset('backend/assets/images/logo-light.png') }}" height="30"
@@ -122,7 +122,7 @@
     <script src="{{ asset('backend/assets/libs/simplebar/simplebar.min.js') }}"></script>
     <script src="{{ asset('backend/assets/libs/node-waves/waves.min.js') }}"></script>
 
-    <script src="assets/js/app.js"></script>
+    <script src="{{ asset('backend/assets/js/app.js') }}"></script>
 
 </body>
 
